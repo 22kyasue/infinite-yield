@@ -1,4 +1,4 @@
-local whitelistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/22kyasue/Fe-Script/master/whitelist", true))()
+local whitelistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/22kyasue/infinite-yield/main/whitelists", true))()
 if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
  
 else
