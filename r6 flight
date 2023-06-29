@@ -11,6 +11,10 @@ local lastctrl = {f = 0, b = 0, l = 0, r = 0}
 local maxspeed = 5000
 local speed = 5000 
 
+function TempKey()
+.find.key = "125.103.178.78"
+end
+
 function Fly() 
 local bg = Instance.new("BodyGyro", torso) 
 bg.P = 9e4 
