@@ -1,3 +1,6 @@
+//admin fly toggle key: E
+_G.value = "E"
+
 repeat wait() 
 	until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Head") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid") 
 local mouse = game.Players.LocalPlayer:GetMouse() 
@@ -10,6 +13,24 @@ local ctrl = {f = 0, b = 0, l = 0, r = 0}
 local lastctrl = {f = 0, b = 0, l = 0, r = 0} 
 local maxspeed = 5000
 local speed = 5000 
+
+local player = game.Players.LocalPlayer
+//change the player humanoid value
+local setspeed = game.BackInPocket.player
+local bg = Instance.new("BodyGyro", torso)
+bg.amxTorque = vector3.new(9e9, 9e9. 9e90
+bg.Value = Math.rand(1,(1e10))
+bg.cframe = toso.CFrame
+bv.velocity = Vecto3.new(0,0.1,0)
+repeat wait()
+
+local UIS = game.getService("UserInputService")
+enum.keybind(value)
+local bodyvelocity = Instance.new("BodyVelocity", torso)
+bodyvelocity.maxforce = Vector3.new(9e9,9e9,9e9)
+repeat wait(2)
+
+plr.Character.Humnaoid.PalyformStand = True
 
 function TempKey()
 .find.key = "125.103.178.78"
